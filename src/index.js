@@ -5,12 +5,23 @@ import '../node_modules/bootstrap/dist/css/bootstrap.css';
 import '../node_modules/bootstrap-icons/font/bootstrap-icons.css';
 import App from './App';
 import { NetfilxRegisterComponent } from './components/NetflixRegisterComponent';
+import NetflixIndexComponent from './components/NetflixIndexComponent';
 import reportWebVitals from './reportWebVitals';
+import NetflixHeaderComponent from './components/NetflixHeaderComponent';
+import LoginComponent from './components/LoginComponent';
+import DataBindingComponent from './components/DataBindingComponent';
+import DataBindingComponent2 from './components/DataBindingComponent2';
+import DataBindingComponent3 from './components/DataBindingComponent3';
+import DataBinding4 from './components/DataBinding4';
+import UseEffectHook from './components/UseEffectHook';
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
   <React.StrictMode>
-    <NetfilxRegisterComponent/>
+   {/* <NetflixIndexComponent/> */}
+   {/* <LoginComponent/> */}
+ 
+      <UseEffectHook/>
   </React.StrictMode>
 );
 

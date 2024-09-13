@@ -1,0 +1,26 @@
+.container-fluid{
+ height: 100vmax;
+ color: white;
+ font-size: 50px;
+ background-image: url("netflix.png");
+}
+
+.box{
+    background-color: rgba(0,0,0,0);
+    height: 50vmax;
+    width: 100vmax;
+}
+section{
+    height: 400px;
+}
+.text-size{
+    font-size:small;
+    text-align: center;
+
+}
+.input-group{
+    text-align: center;
+    justify-content: center;
+    border: width 5px;
+
+}

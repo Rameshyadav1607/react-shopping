@@ -1,5 +1,17 @@
+<head>
 <script>
-    "use strict";
-   var x=10;
-    document.write("x=" +x)
+    var categories=["all","electronic","footwear"]
+    function bodyload(){
+       for(var item of categories){
+        var li=document.createElement("li")
+        li.innerHTML=item;
+        document.querySelector("ol").appendChild(li);
+       }
+    }
 </script>
+</head>
+<body onload="bodyload()">
+    <ol></ol>
+
+    
+</body>

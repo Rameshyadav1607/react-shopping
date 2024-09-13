@@ -1,9 +1,9 @@
 export function NetfilxRegisterComponent(){
     return(
        
-        <div className="container-fluid text-center mt-3 bg-dark p-3 text-white w-50">
-        <p>Ready to watch? Enter your email to create or restart your membership.</p>
-        <div>
+        <div >
+        <p className="text-size">Ready to watch? Enter your email to create or restart your membership.</p>
+        <div className="input-group">
             <input type="email"></input>
 
             <button className="btn btn-danger">
