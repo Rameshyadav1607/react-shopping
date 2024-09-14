@@ -14,15 +14,21 @@ import DataBindingComponent2 from './components/DataBindingComponent2';
 import DataBindingComponent3 from './components/DataBindingComponent3';
 import DataBinding4 from './components/DataBinding4';
 import UseEffectHook from './components/UseEffectHook';
+import ShoppingComponent from './components/ShoppingComponent';
+import EventBindingComponent from './components/EventBindingComponent';
+import TwoWayBinding from './components/TwoWayBinding';
+import FormComponent from './components/FormComponent';
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
   <React.StrictMode>
    {/* <NetflixIndexComponent/> */}
    {/* <LoginComponent/> */}
- 
-      <UseEffectHook/>
-  </React.StrictMode>
+   {/* <ShoppingComponent/> */}
+   {/* <EventBindingComponent/> */}
+   {/* <TwoWayBinding/> */}
+   <FormComponent/>
+    </React.StrictMode>
 );
 
 // If you want to start measuring performance in your app, pass a function
