@@ -18,6 +18,8 @@ import ShoppingComponent from './components/ShoppingComponent';
 import EventBindingComponent from './components/EventBindingComponent';
 import TwoWayBinding from './components/TwoWayBinding';
 import FormComponent from './components/FormComponent';
+import FormikDemo from './components/FormikDemo';
+import FormikValidation from './components/FormikValidation';
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
@@ -27,7 +29,9 @@ root.render(
    {/* <ShoppingComponent/> */}
    {/* <EventBindingComponent/> */}
    {/* <TwoWayBinding/> */}
-   <FormComponent/>
+   {/* <FormComponent/> */}
+   {/* <FormikDemo/> */}
+   <FormikValidation/>
     </React.StrictMode>
 );
 
