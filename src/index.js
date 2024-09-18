@@ -20,6 +20,7 @@ import TwoWayBinding from './components/TwoWayBinding';
 import FormComponent from './components/FormComponent';
 import FormikDemo from './components/FormikDemo';
 import FormikValidation from './components/FormikValidation';
+import YupValidation from './components/YupValidation';
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
@@ -31,7 +32,8 @@ root.render(
    {/* <TwoWayBinding/> */}
    {/* <FormComponent/> */}
    {/* <FormikDemo/> */}
-   <FormikValidation/>
+   {/* <FormikValidation/> */}
+   <YupValidation/>
     </React.StrictMode>
 );
 

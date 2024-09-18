@@ -50,7 +50,7 @@ export default function FormikValidation(){
      })
     return(
     
-        <div className="container-fluid">
+        <div className="container-fluid" >
             <form onSubmit={formik.handleSubmit}>
             <h2>Register User</h2>
             <dl>
