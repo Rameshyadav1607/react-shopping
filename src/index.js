@@ -21,6 +21,8 @@ import FormComponent from './components/FormComponent';
 import FormikDemo from './components/FormikDemo';
 import FormikValidation from './components/FormikValidation';
 import YupValidation from './components/YupValidation';
+import YupValidationComponent from './components/YupValidationComponent';
+import LifeCycleDemo from './components/LifeCycleDemo';
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
@@ -33,7 +35,9 @@ root.render(
    {/* <FormComponent/> */}
    {/* <FormikDemo/> */}
    {/* <FormikValidation/> */}
-   <YupValidation/>
+   {/* <YupValidation/> */}
+   {/* <YupValidationComponent/> */}
+   <LifeCycleDemo/>
     </React.StrictMode>
 );
 
